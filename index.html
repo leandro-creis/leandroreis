@@ -1,111 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leandro Cardoso Reis | Workplace | Gestão de Ativos | End User Services</title>
-  <meta name="description" content="Perfil profissional de Leandro Cardoso Reis — especialista em Workplace, Gestão de Ativos e End User Services.">
-
-  <!-- Tailwind Play CDN (gera utilitários em runtime) -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Configuração Tailwind rápida (define cor personalizada se quiser) -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              DEFAULT: '#0b5fc7', /* azul corporativo */
-              dark: '#084a9e'
-            }
-          }
-        }
-      }
-    }
-  </script>
-
-  <!-- Fallback CSS leve para garantir legibilidade caso o CDN falhe -->
-  <style>
-    :root { --brand: #0b5fc7; }
-    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f8fafc; color:#0f172a; margin:0; }
-    header { background:var(--brand); color:white; padding:2.25rem 0; text-align:center; box-shadow:0 2px 8px rgba(2,6,23,0.06); }
-    main { max-width:960px; margin:0 auto; padding:2.5rem 1rem; }
-    h1{ font-size:1.875rem; margin:0; font-weight:700; }
-    h2{ color:var(--brand); margin-top:0.75rem; margin-bottom:0.75rem; font-size:1.25rem; }
-    .pill{ display:inline-block; background:#e6f0ff; color:var(--brand); padding:0.5rem 0.75rem; border-radius:9999px; }
-    footer{ background:var(--brand); color:white; text-align:center; padding:1rem 0; margin-top:2rem; }
-  </style>
-
-  <link rel="icon" type="image/png" href="assets/favicon.png">
 </head>
-<body class="antialiased">
 
-  <!-- Header -->
-  <header class="bg-brand text-white py-8">
-    <div class="max-w-5xl mx-auto px-4">
-      <h1 class="text-4xl font-extrabold tracking-tight">Leandro Cardoso Reis</h1>
-      <p class="mt-2 text-lg font-light">Workplace | Gestão de Ativos | End User Services</p>
-      <div class="mt-4 flex justify-center gap-3">
-        <a href="#contato" class="inline-block px-4 py-2 rounded-md bg-white text-brand font-medium">Contato</a>
-        <a href="https://www.linkedin.com/in/leandroreisc" target="_blank" class="inline-block px-4 py-2 rounded-md border border-white/30 text-white">LinkedIn</a>
-      </div>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- HEADER -->
+  <header class="bg-blue-700 text-white py-10">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-4xl font-bold">Leandro Cardoso Reis</h1>
+      <p class="text-lg mt-2">Workplace | Gestão de Ativos | End User Services</p>
     </div>
   </header>
 
-  <!-- Main -->
-  <main class="max-w-5xl mx-auto px-6 py-12 space-y-16">
+  <!-- SOBRE MIM -->
+  <section class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-4">Sobre mim</h2>
+    <p class="text-gray-700 leading-relaxed">
+      Sou formado em Ciência da Computação, com especializações em Inteligência Artificial, Aprendizagem de Máquina e Cloud Computing. 
+      Tenho ampla experiência em suporte técnico de níveis 1 e 2, gestão de contratos, ativos e projetos de workplace. 
+      Atualmente, sou Analista de Suporte e Serviços de TI Sênior na Unimed CNU, com foco em maximizar eficiência operacional e reduzir custos, 
+      atuando também em iniciativas de transformação digital e automação.
+    </p>
+  </section>
 
-    <section id="sobre">
-      <h2 class="text-3xl font-semibold text-brand mb-4 border-b-2 border-blue-100 pb-2">Sobre Mim</h2>
-      <p class="text-justify text-base leading-relaxed">
-        Sou formado em <strong>Ciência da Computação</strong>, com especializações em <strong>Inteligência Artificial</strong>,
-        <strong>Aprendizagem de Máquina</strong> e <strong>Cloud Computing</strong>. Atuo com Gestão de Ativos, Workplace e End User Services,
-        unindo conhecimento técnico e visão estratégica para entregar eficiência e inovação.
-      </p>
-    </section>
+  <!-- EXPERIÊNCIA PROFISSIONAL -->
+  <section class="bg-white border-t border-b py-12">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-6">Experiência Profissional</h2>
 
-    <section id="experiencia">
-      <h2 class="text-3xl font-semibold text-brand mb-4 border-b-2 border-blue-100 pb-2">Experiência Profissional</h2>
-      <ul class="list-disc pl-6 space-y-3 text-base">
-        <li><strong>Gestão de Contratos:</strong> Outsourcing de impressão, HaaS e gestão de ativos, assegurando eficiência operacional e controle de custos.</li>
-        <li><strong>Gestão de Ativos de TI:</strong> Supervisão de desktops e notebooks com inventário e monitoramento do ciclo de vida.</li>
-        <li><strong>Coordenação HaaS:</strong> Gestão de Service Desk, Field Service e faturamento.</li>
-        <li><strong>Atendimento VIP:</strong> Suporte para diretoria e executivos.</li>
-      </ul>
-    </section>
-
-    <section id="habilidades">
-      <h2 class="text-3xl font-semibold text-brand mb-4 border-b-2 border-blue-100 pb-2">Habilidades</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
-        <span class="pill">Gestão de Ativos</span>
-        <span class="pill">Workplace</span>
-        <span class="pill">End User Services</span>
-        <span class="pill">Gestão de Contratos</span>
-        <span class="pill">HaaS</span>
-        <span class="pill">Automação com IA</span>
+      <!-- UNIMED CNU -->
+      <div class="mb-10">
+        <h3 class="text-xl font-bold text-gray-900">Unimed CNU</h3>
+        <p class="text-sm text-gray-600">mai de 2023 - o momento</p>
+        <p class="text-gray-800 mt-2 font-medium">Analista de Suporte e Serviços de TI SR / PL / JR</p>
+        <ul class="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+          <li>Gestão de contratos de outsourcing de impressão, HaaS e ativos de TI.</li>
+          <li>Supervisão de mais de 2500 workstations e 200 impressoras corporativas.</li>
+          <li>Responsável por Service Desk, Field Service e HaaS.</li>
+          <li>Homologação de softwares e POCs, implementação de GPOs e gestão de patches.</li>
+          <li>Suporte VIP à diretoria e presidência, assegurando resoluções rápidas e eficazes.</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- Projetos (comentado para preencher depois) -->
-    <!--
-    <section id="projetos">
-      <h2 class="text-3xl font-semibold text-brand mb-4 border-b-2 border-blue-100 pb-2">Projetos</h2>
-      <p>Em breve...</p>
-    </section>
-    -->
+      <!-- STEFANINI -->
+      <div class="mb-10">
+        <h3 class="text-xl font-bold text-gray-900">Stefanini Brasil</h3>
+        <p class="text-sm text-gray-600">set de 2022 - mai de 2023</p>
+        <p class="text-gray-800 mt-2 font-medium">Analista de Suporte N2 / N1</p>
+        <ul class="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+          <li>Atendimento Field Service e remoto a usuários corporativos.</li>
+          <li>Instalação, configuração e manutenção de hardware e software.</li>
+          <li>Gestão da fila de chamados e monitoramento de SLA.</li>
+        </ul>
+      </div>
 
-    <section id="contato" class="text-center">
-      <h2 class="text-3xl font-semibold text-brand mb-4 border-b-2 border-blue-100 pb-2">Contato</h2>
-      <p class="mb-2">📧 <a href="mailto:leandro_reisc@hotmail.com" class="text-brand hover:underline">leandro_reisc@hotmail.com</a></p>
-      <p>🌐 <a href="https://www.linkedin.com/in/leandroreisc" target="_blank" class="text-brand hover:underline">linkedin.com/in/leandroreisc</a></p>
-    </section>
+      <!-- PREFEITURA DE ITAPEVI -->
+      <div>
+        <h3 class="text-xl font-bold text-gray-900">Prefeitura de Itapevi</h3>
+        <p class="text-sm text-gray-600">mai de 2019 - jan de 2021</p>
+        <p class="text-gray-800 mt-2 font-medium">Estagiário de TI - Help Desk</p>
+        <ul class="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+          <li>Manutenção de hardware e suporte a sistemas municipais.</li>
+          <li>Atendimento remoto e presencial aos usuários da prefeitura.</li>
+          <li>Configuração de redes, impressoras e e-mails corporativos.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <!-- FORMAÇÃO ACADÊMICA -->
+  <section class="max-w-5xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-semibold text-blue-700 mb-6">Formação Acadêmica</h2>
 
-  <footer class="bg-brand text-white text-center py-4">
-    <p>&copy; 2025 Leandro Cardoso Reis. Todos os direitos reservados.</p>
+    <ul class="space-y-4">
+      <li>
+        <p class="font-bold text-gray-900">Pós-graduação Lato Sensu - Cloud Computing</p>
+        <p class="text-gray-700">Senac São Paulo | 2023 - 2024</p>
+      </li>
+      <li>
+        <p class="font-bold text-gray-900">Pós-graduação - Inteligência Artificial e Aprendizagem de Máquina</p>
+        <p class="text-gray-700">UNINOVE | 2022 - 2023</p>
+      </li>
+      <li>
+        <p class="font-bold text-gray-900">Bacharelado em Ciência da Computação</p>
+        <p class="text-gray-700">UNINOVE | 2018 - 2021</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CERTIFICAÇÕES -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold text-blue-700 mb-6">Licenças e Certificações</h2>
+
+      <ul class="list-disc pl-5 text-gray-700 space-y-2">
+        <li>Formação Produtividade — Alura (abr/2025)</li>
+        <li>Gerenciar funções FSMO e controladores de domínio do AD DS — Microsoft (mar/2025)</li>
+        <li>Gerenciar recursos avançados do AD DS — Microsoft (mar/2025)</li>
+        <li>Implementar Objetos de Política de Grupo — Microsoft (mar/2025)</li>
+        <li>Implementar e gerenciar Serviços de Certificados do Active Directory — Microsoft (mar/2025)</li>
+        <li>Introdução ao AD DS — Microsoft (mar/2025)</li>
+        <li>Impacto da TI nos Negócios — FGV Online (fev/2023)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-700 text-white py-6 mt-12">
+    <div class="max-w-5xl mx-auto text-center">
+      <p>📧 <a href="mailto:leandro_reisc@hotmail.com" class="underline">leandro_reisc@hotmail.com</a></p>
+      <p class="text-sm mt-2">&copy; 2025 Leandro Cardoso Reis — Todos os direitos reservados.</p>
+    </div>
   </footer>
-
 </body>
 </html>
